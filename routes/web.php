@@ -7,6 +7,11 @@ Route::get('/', function () {
 });
 Route::get('/productos', function () {
     $productos = [
+         [
+            'nombre' => 'Cafe molido',
+            'precio' => 5500,
+            'stock' => 20,
+        ],
         [
             'nombre' => 'Yerba mate',
             'precio' => 2500,
