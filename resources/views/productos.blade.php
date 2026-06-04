@@ -13,6 +13,9 @@
 @else
 <p class="sin-stock">Sin stock</p>
 @endif
+@if($producto['precio'] > 3000)
+<p>Producto destacado</p>
+@endif
 </div>
 @empty
 <p>No hay productos disponibles.</p>
